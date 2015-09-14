@@ -27,11 +27,12 @@ set ts=4 sw=4 noet si
 filetype off
 
 call vundle#begin()
+Plugin 'Tagbar'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'rust-lang/rust.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'wombat256.vim'
-Plugin 'Tagbar'
 call vundle#end()
 
 filetype plugin indent on
