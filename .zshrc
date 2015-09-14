@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/vagrant/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -85,3 +85,6 @@ source $ZSH/oh-my-zsh.sh
 
 PROMPT='%{$fg_bold[green]%}%n%{$reset_color%}@%{$fg_bold[yellow]%}%M%{$reset_color%}:$(pwd | sed -e "s,^$HOME,~,")
 $ '
+
+# Change ls colors
+export LSCOLORS=ExfxcxdxCxegedabagacad
