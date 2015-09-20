@@ -44,6 +44,7 @@ map <F5> <ESC>:!./%<cr>
 nnoremap gr :grep --exclude tags '\b<cword>\b' *<CR>:copen<cr>
 
 au BufRead,BufNewFile SConstruct setfiletype python
+au BufRead,BufNewFile SConscript setfiletype python
 
 if filereadable("SConstruct")
 	set makeprg=scons
@@ -51,3 +52,5 @@ endif
 
 colorscheme wombat256mod
 " colorscheme solarized
+
+hi Error NONE

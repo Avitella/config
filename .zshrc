@@ -88,3 +88,7 @@ $ '
 
 # Change ls colors
 export LSCOLORS=ExfxcxdxCxegedabagacad
+
+function ssh-tank() {
+    ssh -A `echo $1 | sed 's/http:\/\//root@/g' | sed 's/:.*//g'`
+}
