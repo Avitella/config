@@ -1,8 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/vagrant'
-let g:netrw_dirhist_2='/home/vagrant/geo-base'
-let g:netrw_dirhist_3='/home/vagrant/geo-base/src'
-let g:netrw_dirhist_4='/home/vagrant/config/.vim/bundle/Tagbar'
-let g:netrw_dirhist_5='/home/vagrant/config/.vim/bundle/vim-colors-solarized'
-let g:netrw_dirhist_6='/home/vagrant/config/.oh-my-zsh/.git'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/avitella/devel/geo-base/src/geo_base/proto'
+let g:netrw_dirhist_2='/Users/avitella/devel/geo-base/SCons'

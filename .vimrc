@@ -45,6 +45,7 @@ nnoremap gr :grep --exclude tags '\b<cword>\b' *<CR>:copen<cr>
 
 au BufRead,BufNewFile SConstruct setfiletype python
 au BufRead,BufNewFile SConscript setfiletype python
+au BufRead,BufNewFile *.proto setfiletype proto
 
 if filereadable("SConstruct")
 	set makeprg=scons
