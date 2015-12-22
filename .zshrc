@@ -56,6 +56,15 @@ plugins=(git)
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+if [ -d "$HOME/ya" ]; then
+    export PATH="$PATH:$HOME/ya"
+fi
+
+if [ -d "$HOME/yabs-tool" ]; then
+    export PATH="$PATH:$HOME/yabs-tool"
+	alias yabs=yabs3.py
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
